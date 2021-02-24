@@ -1,0 +1,1 @@
+<p>hello from Fooo component</p>

@@ -1,4 +1,6 @@
 <script>
+import Foo from "./Foo.svelte";
+
 	let name = 'bruno';
 	let age = 56;
 
@@ -20,3 +22,4 @@
 	IncrementAge: a ptr to function, do not add () as it will call it!!!
  -->
 <button on:click="{IncrementAge}">Change Age</button>
+<Foo/>
